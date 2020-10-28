@@ -9,11 +9,20 @@ export const Container = styled.div`
       margin: 0 30px;
       display: flex;
       justify-content: center;
+
+        .left-column,
+        .right-column {
+            display: unset; /* unset: como se não tivesse mexido */
+        }
+
+        .middle-column {
+            margin: 0 25px 16px;
+        }
     }
   }
 
   .left-column,
   .right-column {
-    display: unset; /* unset: como se não tivesse mexido */
+    display: none; 
   }
 `;
