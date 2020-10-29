@@ -20,7 +20,45 @@ export const Container = styled.header`
 `;
 
 export const Wrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex: 1; /**Maximo de espaço que esse elemento conseguir. */
 
+  max-width: 1128px;
+  margin: 0 auto;
+  height: 52px;
+
+  .left,
+  .right nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .right nav {
+    height: 100%;
+
+    button {
+      background: none;
+      border: 0;
+      outline: 0;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 90px;
+      min-height: 100%;
+
+      color: var(--color-icons);
+      cursor: pointer;
+      &:hover {
+        color: var(--color-white);
+      }
+      &.active {
+        border-bottom: 2px solid var(--color-white);
+      }
+    }
+  }
 `;
 
 const generalIconCss = css`
@@ -29,11 +67,28 @@ const generalIconCss = css`
 `;
 
 export const LinkedinIcon = styled(GrLinkedin)`
-  ${generalIconCss}  
+  width: 34px;
+  height: 34px;
+  color: var(--color-linkedin);
+  background: var(--color-white);
+  border-radius: 4px; 
+  flex-shrink: 0;
 `;
 
 export const SearchInput = styled.input`
+  margin-left: 12px;
 
+  background: var(--color-input);
+  color: var(--color-black);
+  font-size: 14px;
+  padding: 7.5px 8px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+
+  &:focus {
+    background: var(--color-white);
+  }
 `;
 
 export const HomeIcon = styled(AiFillHome)`
@@ -52,5 +107,6 @@ export const ProfileCircle = styled.img`
 `;
 
 export const CaretDownIcon = styled(AiFillCaretDown)`
-  ${generalIconCss}
+  width: 16px;
+  height: 16px;
 `;
