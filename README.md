@@ -22,7 +22,7 @@
   <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<img src="./.github/assets/linkedin_clone_app.png" />
+<img src="./.github/assets/linkedin_clone.png" />
 
 ## :page_facing_up: Descrição
 Clone do LinkedIn com Shimmer Effect no React JS
