@@ -24,10 +24,26 @@ const MiddleColumn: React.FC<LoadingProps> = ({ isLoading }) => {
   return (
     <Container className="middle-column">
       <FeedShare />
-      <FeedPost />
-      <FeedPost />
-      <FeedPost />
-      <FeedPost />
+      <FeedPost 
+        postImage="https://media-exp1.licdn.com/dms/image/C4D22AQFvTvMSbvEpKg/feedshare-shrink_800-alternative/0?e=1606953600&v=beta&t=WaA56MPOIeUUB-J2e_90nMz2RdwOt2IBAxOs4O_9TSY"
+        likesCount={2}
+      />
+      <FeedPost 
+        postImage="https://github.com/alexandredev3/twitch-clone/raw/master/.github/interface.png"
+        likesCount={48}
+      />
+      <FeedPost 
+        postImage="https://media-exp1.licdn.com/dms/image/C4D22AQFvTvMSbvEpKg/feedshare-shrink_800-alternative/0?e=1606953600&v=beta&t=WaA56MPOIeUUB-J2e_90nMz2RdwOt2IBAxOs4O_9TSY"
+        likesCount={2}
+      />
+      <FeedPost 
+        postImage="https://media-exp1.licdn.com/dms/image/C4D22AQFvTvMSbvEpKg/feedshare-shrink_800-alternative/0?e=1606953600&v=beta&t=WaA56MPOIeUUB-J2e_90nMz2RdwOt2IBAxOs4O_9TSY"
+        likesCount={2}
+      />
+      <FeedPost 
+        postImage="https://media-exp1.licdn.com/dms/image/C4D22AQFvTvMSbvEpKg/feedshare-shrink_800-alternative/0?e=1606953600&v=beta&t=WaA56MPOIeUUB-J2e_90nMz2RdwOt2IBAxOs4O_9TSY"
+        likesCount={2}
+      />
     </Container>
   );
 };
