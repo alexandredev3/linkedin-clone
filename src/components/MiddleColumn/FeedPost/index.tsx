@@ -25,7 +25,7 @@ const FeedPost: React.FC<PostProps> = ({ postImage, likesCount }) => {
     <Panel>
       <Container>
         <Row className="heading">
-          <Avatar src="https://i.imgur.com/81RtXfT.jpg" alt="Rocketseat" />
+          <Avatar src="https://github.com/alexandredev3.png" alt="Rocketseat" />
           <Column>
             <h3>Alexandre</h3>
             <h4>Software Enginner</h4>

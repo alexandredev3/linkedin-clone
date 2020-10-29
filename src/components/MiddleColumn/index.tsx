@@ -33,16 +33,8 @@ const MiddleColumn: React.FC<LoadingProps> = ({ isLoading }) => {
         likesCount={48}
       />
       <FeedPost 
-        postImage="https://media-exp1.licdn.com/dms/image/C4D22AQFvTvMSbvEpKg/feedshare-shrink_800-alternative/0?e=1606953600&v=beta&t=WaA56MPOIeUUB-J2e_90nMz2RdwOt2IBAxOs4O_9TSY"
-        likesCount={2}
-      />
-      <FeedPost 
-        postImage="https://media-exp1.licdn.com/dms/image/C4D22AQFvTvMSbvEpKg/feedshare-shrink_800-alternative/0?e=1606953600&v=beta&t=WaA56MPOIeUUB-J2e_90nMz2RdwOt2IBAxOs4O_9TSY"
-        likesCount={2}
-      />
-      <FeedPost 
-        postImage="https://media-exp1.licdn.com/dms/image/C4D22AQFvTvMSbvEpKg/feedshare-shrink_800-alternative/0?e=1606953600&v=beta&t=WaA56MPOIeUUB-J2e_90nMz2RdwOt2IBAxOs4O_9TSY"
-        likesCount={2}
+        postImage="https://github.com/alexandredev3/linkedin-clone/raw/master/.github/assets/linkedin_clone_app.png"
+        likesCount={52}
       />
     </Container>
   );
