@@ -30,7 +30,7 @@ Clone do LinkedIn com Shimmer Effect no React JS
 ## :paperclip: Links
 No link abaixo você encontra o app online.
 
-- [LinkedIn Clone](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
+- [LinkedIn Clone](https://linkedin-clone-alexandredev3.netlify.app/)
 
 ## 🛠 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias
